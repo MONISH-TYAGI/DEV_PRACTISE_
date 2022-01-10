@@ -1,4 +1,6 @@
-/* Navigation */
+/* Navigation */ 
+/* Corrected */
+body, html { overflow-x:hidden; }
 #navbar{
     flex-direction: column;
 }
@@ -15,7 +17,7 @@
 /* Home section */
 #home{
 height: 370px;
-padding: 3px 68px;
+padding: 3px 54px;
 
 }
 #home::before{
@@ -31,6 +33,12 @@ flex-direction: column;
 #services .box{
     margin:3px 6px ;
 
+}
+#services .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+    width: 100%;
 }
 /* Clients section  */
 #clients{
