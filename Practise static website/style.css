@@ -13,7 +13,7 @@ nav {
     display: flex;
     background-color: black;
     /* z-index: -1; */
-    padding: 16px 15px
+    padding: 25px 15px
     /* padding-bottom: 15px; */
 }
  nav>input {
@@ -44,7 +44,7 @@ nav>a{
     /* background-color: white; */
     position: absolute;
     right: 12%;
-    top: 1.0%
+    top: 1.3%
 }
 div{
     opacity: 0.5;

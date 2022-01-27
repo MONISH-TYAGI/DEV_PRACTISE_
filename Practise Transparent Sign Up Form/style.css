@@ -1,0 +1,63 @@
+.container{
+    /* border: 2px solid red; */
+    width: 21%;
+    padding: 0px;
+    position: absolute;
+    top: 34%;
+    left: 41%;
+    height: 30%;
+}
+body{
+    background: url(swing.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+.container h1{
+    border-bottom: 3px solid purple;
+}
+h1{
+    padding: 0px;
+    margin: 13px;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 44px;
+}
+.box{
+    margin: 10px;
+    padding: 4px 13px;
+    border-bottom: 2px solid purple;
+    border-bottom-style: groove;
+}
+input{
+    font-size: 20px;
+    border-radius: 12px;
+    /* text-align: center; */
+    background: none;
+    border: none;
+    outline: none;
+    width:90%;
+    
+}
+button{
+    margin: 5px 37%;
+    padding: 5px 9px;
+    /* position: absolute; */
+    left: 32%;
+    border-radius: 27px;
+    cursor: pointer;
+    background: none;
+    /* outline: none; */
+    border-color: purple;
+    /* background-color: white; */
+    color: white;
+    
+}
+#i{
+
+transform: scale(1.5);
+}
+button:hover{
+    opacity: 0.5;
+    color: purple; 
+    background: white; 
+
+}
