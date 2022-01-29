@@ -74,3 +74,7 @@ flex-direction: column;
     font-size: 13px;
     padding:4px 8px;
 }
+.center {
+    text-align: center;
+    margin: -1px;
+}
