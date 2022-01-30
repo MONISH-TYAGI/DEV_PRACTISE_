@@ -52,21 +52,23 @@ html{
     transition:var(height);
     transition:var(--font-size);
 }
-#navbar ul li a{
-    
-    color:white;
-   display: block;
-   padding: 3px 22px;
-   border-radius: 20px;
-   text-decoration: none;
-   
-   
+
+
+#navbar ul li a {
+    margin: auto 9px;
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
 }
-#navbar ul li a:hover{
-    color:black;
+#navbar ul li a:hover {
+    /* margin: auto 48px; */
+    color: black;
     background-color: white;
-    height:30px;
-    font-size:25px;
+    height: 25px;
+    /* font-size: 25px; */
+    /* padding: 1px 10px; */
 }
 /* Home Section */
 #home{
@@ -176,7 +178,7 @@ height:100%;
 #contact-box input,
 #contact-box textarea{
     width:100%;
-    padding:0.5px;
+    padding:0.5px 7px;
     border-radius: 9px;
     font-size: 1.1rem;
 }

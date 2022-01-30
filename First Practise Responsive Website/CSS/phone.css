@@ -9,6 +9,16 @@ body, html { overflow-x:hidden; }
     padding:0px 7px;
     padding-bottom: 11px;
 }
+#navbar ul li a:hover {
+    display: flex;
+    justify-content: center;
+    /* margin: auto 48px; */
+    color: black;
+    background-color: white;
+    height: inherit;
+    font-size: 15px;
+    padding: 1px 10px;
+}
 
 
 #logo img {
@@ -35,10 +45,10 @@ flex-direction: column;
 
 }
 #services .box img {
-    height: 160px;
+    height: inherit;
     margin: auto;
     display: block;
-    width: 100%;
+    width: 50%;
 }
 /* Clients section  */
 #clients{
