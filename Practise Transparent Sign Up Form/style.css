@@ -35,6 +35,8 @@ input{
     border: none;
     outline: none;
     width:90%;
+    color:white;
+    padding:0px 5px;
     
 }
 button{
